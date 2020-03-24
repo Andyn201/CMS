@@ -1,0 +1,7 @@
+- Big Project
+
+1. Create HTML theme
+
+2. Create and connect to db. PHP_My_Admin and includes/db.php
+
+3. 
