@@ -1,5 +1,5 @@
 <?php
-    include "../../includes/db.php";
+    include "admin_db.php";
 ?>
 
 <!DOCTYPE html>
