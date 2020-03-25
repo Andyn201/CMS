@@ -51,7 +51,7 @@
                 </p>
                 <p><span class="glyphicon glyphicon-time"></span> Posted on <?php echo $post_date ?></p>
                 <hr>
-                <img class="img-responsive" src="<?php if(empty($post_image)){ echo '/images' + strval($post_image); } else { echo 'https://moozpussy.com/wp-content/uploads/026/Fun-Nude-Blonde-Model-Iveta-Skillfully-Posing-800x500.jpg';} ?> alt=''" >
+                <img class="img-responsive" src="./images/<?php echo $post_image ?>" >
                 <hr>
                 <p><?php echo $post_content ?></p>
                 <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
