@@ -5,3 +5,12 @@
 2. Create and connect to db. PHP_My_Admin and includes/db.php
 
 3. Add functionality one thing at a time
+
+search functionality
+categories functionality
+posts functionality
+comments functionality
+users functionality
+login functionality
+profile functionality
+dashboard functionality
