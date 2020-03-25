@@ -64,6 +64,7 @@
 								<tbody>
 
 								<?php
+								//  Add Categories
                                 $query = 'SELECT * FROM categories';
                                 $select_categories = mysqli_query($connection, $query);
                                 while($row = mysqli_fetch_assoc( $select_categories)) {
@@ -73,9 +74,24 @@
                                     echo "<tr>
 									<td>{$cat_id}</td>
 									<td>{$cat_title}</td>
+									<td><a href='categories.php?delete={$cat_id}'>Delete</a></td>
 										</tr>";
-                                }
-                            ?>
+								}
+								
+								//   Delete Categories
+								if(isset($_GET['delete'])){
+									$the_cat_id = $_GET['delete'];
+
+									$query = "DELETE FROM categories WHERE cat_id = {$the_cat_id}";
+									$delete_query = mysqli_query($connection, $query);
+									header("Location: categories.php");
+
+
+								}
+
+
+							?>
+							
 								</tbody>
 							</table>
 						</div>

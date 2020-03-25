@@ -1,3 +1,5 @@
+<?php ob_start(); ?>
+
 <?php
     include "admin_db.php";
 ?>
