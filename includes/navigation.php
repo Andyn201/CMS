@@ -24,6 +24,9 @@
                     <li>
                         <a href="#">Contact</a>
                     </li>
+                    <li>
+                        <a href="admin">Admin</a>
+                    </li>
 
                     <?php
                         $query = 'SELECT * FROM categories ';
